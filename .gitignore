@@ -1,0 +1,32 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Trained models (optional - see below)
+# *.pkl
+
+# Data files (optional - see below)
+# data/*.csv
+
+# Logs and outputs
+*.log
+output/
