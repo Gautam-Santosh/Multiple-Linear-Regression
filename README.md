@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💰 Multiple Linear Regression — Income Prediction
+#  Multiple Linear Regression — Income Prediction
 
 ### Predicting income from age and experience using 5 ML models
 
@@ -13,17 +13,17 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This project explores **multiple linear regression** by predicting a person's **income** based on their **age** and **years of experience**.
 
 It trains and compares **5 different machine learning models** to find which one fits the data best — and walks through the full ML workflow with detailed explanations in every step.
 
-> 🎯 **Best result:** Linear Regression achieved an **R² score of 0.94** — explaining 94% of the variance in income.
+>  **Best result:** Linear Regression achieved an **R² score of 0.94** — explaining 94% of the variance in income.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -44,15 +44,15 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Then open `Multiple_Linear_Regression_documented.ipynb` and run all cells. ✅
+Then open `Multiple_Linear_Regression_documented.ipynb` and run all cells. 
 
 ---
 
-## 🧠 Models Compared
+##  Models Compared
 
 | # | Model | Type | Best For |
 |---|-------|------|----------|
-| 1 | **Linear Regression** ⭐ | Linear | Data with linear relationships |
+| 1 | **Linear Regression**  | Linear | Data with linear relationships |
 | 2 | **Random Forest** | Ensemble | Non-linear patterns, larger datasets |
 | 3 | **Decision Tree** | Tree-based | Quick interpretable predictions |
 | 4 | **Support Vector Regression (SVR)** | Kernel-based | Complex boundaries (needs scaling) |
@@ -60,17 +60,17 @@ Then open `Multiple_Linear_Regression_documented.ipynb` and run all cells. ✅
 
 ---
 
-## 📊 Results
+##  Results
 
 | Model | R² Score | Verdict |
 |-------|---------:|---------|
-| 🥇 **Linear Regression** | **0.94** | Excellent ✅ |
-| 🥈 **Random Forest** | 0.68 | Decent |
-| 🥉 **Decision Tree** | 0.30 | Poor |
-| ❌ Naive Bayes | -1.37 | Wrong tool for regression |
-| ❌ SVR | -4.59 | Needs feature scaling |
+|  **Linear Regression** | **0.94** | Excellent  |
+|  **Random Forest** | 0.68 | Decent |
+|  **Decision Tree** | 0.30 | Poor |
+|  Naive Bayes | -1.37 | Wrong tool for regression |
+|  SVR | -4.59 | Needs feature scaling |
 
-### 🎯 Key Insight
+###  Key Insight
 
 > **Match the algorithm to the problem.**
 > Income vs experience is a **linear relationship** → simple Linear Regression wins easily.
@@ -78,20 +78,20 @@ Then open `Multiple_Linear_Regression_documented.ipynb` and run all cells. ✅
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Multiple-Linear-Regression/
 │
-├── 📓 Multiple_Linear_Regression_documented.ipynb   # Main notebook (with explanations)
-├── 📄 README.md                                     # This file
-├── 📦 requirements.txt                              # Python dependencies
-├── 🚫 .gitignore                                    # Files Git should ignore
+├──  Multiple_Linear_Regression_documented.ipynb   # Main notebook (with explanations)
+├──  README.md                                     # This file
+├──  requirements.txt                              # Python dependencies
+├──  .gitignore                                    # Files Git should ignore
 │
-├── 📂 data/
+├──  data/
 │   └── multiple_linear_regression_dataset.csv      # Training data (20 rows × 3 cols)
 │
-└── 📂 models/                                       # Trained & saved models
+└──  models/                                       # Trained & saved models
     ├── lr.pkl       # Linear Regression
     ├── rf.pkl       # Random Forest
     ├── dt.pkl       # Decision Tree
@@ -101,7 +101,7 @@ Multiple-Linear-Regression/
 
 ---
 
-## 🛠️ Workflow
+##  Workflow
 
 ```mermaid
 graph LR
@@ -128,7 +128,7 @@ graph LR
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 A small dataset of **20 individuals** with three features:
 
@@ -150,7 +150,7 @@ A small dataset of **20 individuals** with three features:
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Language:** Python 3.10+
 - **Data handling:** pandas, numpy
@@ -161,17 +161,17 @@ A small dataset of **20 individuals** with three features:
 
 ---
 
-## 📈 Sample Visualizations
+##  Sample Visualizations
 
 The notebook includes:
 
-- 📉 **Line plot** — R² score across all 5 models
-- 📊 **Bar chart** — color-coded model comparison (green = good, red = bad)
-- 🎯 **Scatter plot** — actual vs predicted income values
+-  **Line plot** — R² score across all 5 models
+-  **Bar chart** — color-coded model comparison (green = good, red = bad)
+-  **Scatter plot** — actual vs predicted income values
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] Apply **feature scaling** (StandardScaler) to fix SVR performance
 - [ ] Use **cross-validation** instead of single train/test split (better for small data)
@@ -182,28 +182,28 @@ The notebook includes:
 
 ---
 
-## 📚 What I Learned
+##  What I Learned
 
-- ✅ The full ML workflow from data loading to deployment
-- ✅ How to compare multiple models with R², MAE, MSE
-- ✅ When to use linear vs non-linear algorithms
-- ✅ How to save/load trained models with `joblib`
-- ✅ The importance of matching the **algorithm to the data**
-- ✅ Why small datasets favor simpler models
+-  The full ML workflow from data loading to deployment
+-  How to compare multiple models with R², MAE, MSE
+-  When to use linear vs non-linear algorithms
+-  How to save/load trained models with `joblib`
+-  The importance of matching the **algorithm to the data**
+-  Why small datasets favor simpler models
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Suggestions, improvements, and pull requests are welcome! Feel free to:
 
-1. ⭐ **Star** this repo if you found it helpful
-2. 🍴 **Fork** it to experiment on your own
-3. 🐛 **Open an issue** if you spot a bug or have ideas
+1.  **Star** this repo if you found it helpful
+2.  **Fork** it to experiment on your own
+3.  **Open an issue** if you spot a bug or have ideas
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Gautam Santosh**
 
@@ -213,8 +213,6 @@ Suggestions, improvements, and pull requests are welcome! Feel free to:
 
 <div align="center">
 
-⭐ **If this project helped you, give it a star!** ⭐
-
-*Made with ❤️ and lots of debugging*
+ **If this project helped you, give it a star!** 
 
 </div>
